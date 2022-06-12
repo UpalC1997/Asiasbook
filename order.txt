@@ -1,0 +1,6 @@
+home
+post
+gallery
+blog
+organaisation
+about us

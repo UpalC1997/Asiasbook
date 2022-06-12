@@ -1,0 +1,52 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+.username-top {
+    position: absolute;
+    bottom: 55px;
+    font-size: 22px;
+    padding: 13px 23px;
+    color: #b0b0b0;
+    text-align: center;
+    width: 100%;
+}
+.sidenav {
+  height: 100%;
+  width: 0px;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  background-color: #000;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.sidenav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;
+  width: 50%;}
+  .sidenav a {font-size: 18px;}
+
+}
