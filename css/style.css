@@ -1441,7 +1441,7 @@
 
         /* Media Query start here */
         @media (max-width: 576px) {
-          .forget-pass {}
+          .forget-pass {color: black}
           .logo img {width: 115px;}
           .grid-container img {height: 350px;}
 
