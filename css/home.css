@@ -14,17 +14,15 @@ body{
 .slide p{font-size: 35px;color: white;text-align: center;padding: 0px 0px;margin-bottom: 45px;}
 	.main{
 		width: 340px;
-		height: 480px;
-		background: red;
-		overflow: hidden;
-		border-radius: 10px;
-		box-shadow: 5px 20px 50px #000;
-		background: rgb(0,66,8);
-		background: linear-gradient(355deg, rgba(0,66,8,1) 0%, rgba(17,121,9,1) 49%, rgba(17, 187, 0, 0.26) 100%);
-		margin: 0 auto;
-		position: relative;
-		top: 10vh;
-		right: 4vw;
+    height: 480px;
+    background: red;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px #000;
+    background: rgb(0,66,8);
+    background: linear-gradient(355deg, rgba(0,66,8,1) 0%, rgba(17,121,9,1) 49%, rgba(17, 187, 0, 0.26) 100%);
+    margin: 0 auto;
+    margin-top: 60px;
 	}
 	#chk{
 		display: none;
@@ -49,8 +47,8 @@ body{
 		margin-bottom: 80px;
 	}
 
-	.enter-site-box {position: relative;top: 15vh;}
-	.enter-site-btn {padding: 10px 30px;background: gray;border-radius: 8px;left: 24%;position: relative;color: black;}
+	.enter-site-box {width: 340px;margin: 0 auto;margin-top: 20px;position: relative;}
+	.enter-site-btn {padding: 10px 15px;background: gray;border-radius: 8px;width: 100%;position: absolute;color: black;text-align: center;font-weight: bold;text-shadow: 4px 4px 5px #494949;}
 	.enter-site-btn:hover {background: #106d08;color: white;text-decoration: none;}
 		.main input{
 		width: 65%;
@@ -156,8 +154,8 @@ body{
 			margin-bottom: 65px;
 		}
 
-		.enter-site-box {text-align: center;position: unset;margin-top: 30px;}
-		.enter-site-btn {padding: 10px 30px;background: gray;border-radius: 8px;color: black;text-shadow: 5px 5px 10px black;position: unset;}
+		.enter-site-box {/*! text-align: center; *//*! position: unset; *//*! margin-top: 30px; */}
+		.enter-site-btn {/*! padding: 10px 30px; *//*! background: gray; *//*! border-radius: 8px; *//*! color: black; *//*! text-shadow: 5px 5px 10px black; *//*! position: unset; */}
 		.enter-site-btn:hover {background: green;color: white;text-decoration: none;transition: all.3s;text-shadow: 5px 5px 10px black;}
 			.main input{
 			width: 70%;

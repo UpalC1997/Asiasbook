@@ -21,15 +21,16 @@ body {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
-  text-align: center;
+  text-align: left;
 }
 
 .sidenav a {
   text-decoration: none;
   font-size: 20px;
-  color: #818181;
+  color: white;
   display: block;
   transition: 0.3s;
+  border-bottom: 1px solid white;
 }
 
 .sidenav a:hover {
@@ -42,6 +43,7 @@ body {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+  border: 0;
 }
 
 @media screen and (max-height: 450px) {

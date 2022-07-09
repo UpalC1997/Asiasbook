@@ -68,6 +68,7 @@
           position: absolute;
           left: 0;
           right: 0;
+          border-bottom: 1px solid #23923c !important;
         }
 
         /* DRopdown-css */
@@ -395,12 +396,12 @@
           font-size: 30px;
           border-radius: 5px;
         }
-        .aboutus-question{color: black;}
+        .aboutus-question{color: #089709;margin: 0;font-size: 20px;}
         .aboutus-question:checked {color: green !important;}
-        .aboutus-answer{font-size: 17px;color: black !important;}
+        .aboutus-answer{font-size: 20px;color: #bababa;margin-bottom: 10px;}
         .aboutus-card{border-color: gray;border-radius: 0;border: 0;cursor: pointer;}
         .aboutus-head{background: #e6e6e6 !important;}
-        .aboutus-box{margin-top: 20px;width: 90%;float: right;}
+        .aboutus-box{margin-top: 5px;width: 100%;float: right;}
 
         #Share-main-section {
           background: url("../img/71.jpg");
@@ -1438,12 +1439,12 @@
 
 .logo img {width: 150px;/*! padding-top: 10px; */}
     /* upload-image */
-
+.comment-dropdown {padding: 0 !important;}
         /* Media Query start here */
         @media (max-width: 576px) {
           .forget-pass {color: black}
           .logo img {width: 115px;}
-          .grid-container img {height: 350px;}
+          .grid-container img {width: 100%;aspect-ratio: 1 / 1;height: auto;}
 
           .grid-container div {margin-bottom: 5px;}
           .create-post-menu {/*! width: 100%; */}
@@ -1549,7 +1550,7 @@
 
 
           #blog-main-section p {font-size: 13px;margin: 0;padding: 0;}
-          .aboutus-answer {font-size: 15px;}
+          .aboutus-answer {font-size: 15px;text-align: justify;}
           #Share-main-section .fa {font-size: 23px; padding-top: 4px;}
           .aboutus-question {font-size: 16px;}
           .blog-title {font-size: 18px;height: 90px;margin-bottom: 0;}
