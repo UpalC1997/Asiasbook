@@ -1,0 +1,699 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
+   <link rel="stylesheet" href="css/uikit.min.css">
+   <link rel="stylesheet" href="css/font-awesome.min.css">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/animate.min.css">
+   <link href="css/fotorama.css" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/sidebar.css">
+     <link rel="stylesheet" href="css/lightslider.css" />
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <title>Asiasbook</title>
+ </head>
+
+ <body>
+   <div id="mySidenav" class="sidenav">
+     <p class="username-top">Upal C</p>
+       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+       <ul class="navbar-nav px-4 mb-5" onclick="closeNav()">
+           <li class="nav-item">
+               <a class="nav-link" href="\index.html#home-section">Home</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="\index.html#explore-head-section">View Posts</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="\index.html#create-head-section">Gallery</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="\index.html#blog-head-section">Blog</a>
+           </li>
+           <!-- <li class="nav-item ">
+               <a class="nav-link" href="#organaization-head-section">Organisations</a>
+           </li> -->
+           <li class="nav-item">
+               <a class="nav-link" href="\index.html#share-head-section">About Us</a>
+           </li>
+
+
+       </ul>
+       <a class="btn btn-outline-success btn-sm login-button mt-5" href="#" data-toggle="modal" data-target="#LoginModal" name="button">LOGOUT</a>
+   </div>
+
+   <nav class="navbar navbar-dark navbar-expand-md fixed-top">
+     <div class="container">
+       <a href="/index.html#home-section" class="logo">
+         <img src="img/logo1.png"  alt="" >
+       </a>
+       <p id="hamburger" style="font-size:30px;cursor:pointer; margin: 0;" onclick="openNav()">&#9776;</p>
+
+
+
+       <!-- <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarnav">
+         <span class="navbar-toggler-icon"></span>
+       </button> -->
+     </div>
+   </nav>
+
+
+   <!-- SLIDER -->
+
+   <section id="CommentHeadSection" class="pt-5 mt-5">
+     <div class="sticky-menu text-dark sticky-top" id="stickymenu">
+       <div class="container">
+         <div class="row create-post-menu">
+
+           <div class="col-sm-12 col-md-12 create-post-menu-mobile">
+             <div class="w-100 bg-light text-center create-post">
+               <p class=" pt-2 px-3" data-toggle="modal" data-target="#createpost"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Create post</p>
+             </div>
+             <!-- <div class="w-50 bg-light float-left filter">
+               <p class=" pt-2 px-3 text-right" data-toggle="modal" data-target="#filter"><i class="fa fa-sliders" aria-hidden="true"></i> Filter</p>
+             </div> -->
+           </div>
+
+         </div>
+       </div>
+     </div>
+
+     <section class="text-center text-light">
+
+     </section>
+     <section id="explore-main-section" class="pb-5 pt-4 text-dark">
+         <div class="container">
+
+           <div class="post-section bg-light">
+             <div class="row">
+               <div class="col-md-6  postbox-left">
+
+                 <div class="user-profile float-left">
+                 <h3 class="profile-img">H</h3>
+               </div>
+               <div class="row">
+                 <div class="col-6">
+                   <p class="issue-name">Roadside Trash</p>
+                   <p class="username text-success">Hsan M</p>
+                 </div>
+                 <div class="col-6">
+                   <h5 class="issue-location">Mirpur-2 Dhaka</h5>
+                   <span class="post-time">1m ago</span>
+                 </div>
+               </div>
+               <div class="post-img float-left" uk-lightbox="animation: scale">
+                   <div>
+                       <a class="" href="img/1.jpg"   >
+                           <img src="img/1.jpg" alt="" class="rounded post-image">
+                       </a>
+                   </div>
+                   <div>
+                       <a class="" href="img/2.jpg" >
+
+                       </a>
+                   </div>
+                   <div>
+                       <a class="" href="img/3.jpg">
+
+                       </a>
+                   </div>
+               </div>
+
+             </div>
+
+               <div class="col-md-6  postbox-right">
+                 <div class="users-comment">
+                   <div class="each-comment">
+
+                   <div class="cmnt-sec">
+
+                   <h5 class="">Champok D</h5>
+                   <div class="bubble">
+                   <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam accusamus non omnis recusandae nobis officiis tempora dicta, ipsum eum alias!</p>
+                   <span>3m ago</span>
+                   </div>
+
+                   </div>
+                   </div>
+
+                   <div class="each-comment">
+
+                   <div class="cmnt-sec">
+
+                   <h5 class="">Jhon D</h5>
+                   <div class="bubble">
+                   <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam accusamus non omnis recusandae nobis officiis tempora</p>
+                   <span>2m ago</span>
+                   </div>
+
+                   </div>
+                   </div>
+                   <div class="each-comment">
+
+                   <div class="cmnt-sec">
+
+                   <h5 class="">Arko M</h5>
+                   <div class="bubble">
+                   <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam accusamus non omnis recusandae nobis officiis tempora dicta, ipsum</p>
+                   <span>1m ago</span>
+                    </div>
+
+                   </div>
+                   </div>
+                   <div class="each-comment">
+
+                   <div class="cmnt-sec">
+
+                   <h5 class="">Champok D</h5>
+                   <div class="bubble">
+                   <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam accusamus non omnis recusandae nobis officiis tempora dicta, ipsum eum alias!</p>
+                   <span>3m ago</span>
+                 </div>
+
+                   </div>
+                   </div>
+
+                 </div>
+                 <form class="form-inline comment-form">
+                   <div class="form-row">
+                     <div class="form-group col-md-11 col-11">
+                       <textarea placeholder="Add a comment" class="txta"></textarea>
+                     </div>
+                     <div class="form-group col-md-1 col-1">
+                       <button type="submit" class="btn user-comment-button w-100" href="#"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                     </div>
+                    </div>
+                  </form>
+               </div>
+             </div>
+
+
+
+
+             </div>
+
+             <div class="post-section bg-light">
+               <div class="row">
+                 <div class="col-md-6  postbox-left">
+
+                   <div class="user-profile float-left">
+                   <h3 class="profile-img">H</h3>
+                 </div>
+                 <div class="row">
+                   <div class="col-6">
+                     <p class="issue-name">Roadside Trash</p>
+                     <p class="username text-success">Champok D</p>
+                   </div>
+                   <div class="col-6">
+                     <h5 class="issue-location">Kolabagan road, Dhanmondi</h5>
+                     <span class="post-time">34m ago</span>
+                   </div>
+                 </div>
+                 <div class="post-img float-left" uk-lightbox="animation: scale">
+                     <div>
+                         <a class="" href="img/5.jpg"   >
+                             <img src="img/5.jpg" alt="" class="rounded post-image">
+                         </a>
+                     </div>
+                     <div>
+                         <a class="" href="img/2.jpg" >
+
+                         </a>
+                     </div>
+                     <div>
+                         <a class="" href="img/3.jpg">
+
+                         </a>
+                     </div>
+                 </div>
+
+               </div>
+
+                 <div class="col-md-6  postbox-right">
+                   <div class="users-comment">
+                     <div class="each-comment">
+                     <div class="cmnt-sec">
+                     <h5 class="">Jhon D</h5>
+                     <div class="bubble">
+                     <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam accusamus non omnis recusandae nobis officiis tempora</p>
+                     <span>2m ago</span>
+                     </div>
+
+                     </div>
+                     </div>
+                     <div class="each-comment">
+
+                     <div class="cmnt-sec">
+
+                     <h5 class="">Arko M</h5>
+                     <div class="bubble">
+                     <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam accusamus non omnis recusandae nobis officiis tempora dicta, ipsum</p>
+                     <span>1m ago</span>
+                      </div>
+
+                     </div>
+                     </div>
+
+                   </div>
+                   <form class="form-inline comment-form">
+                     <div class="form-row">
+                       <div class="form-group col-md-11 col-11">
+                         <textarea placeholder="Add a comment" class="txta"></textarea>
+                       </div>
+                       <div class="form-group col-md-1 col-1">
+                         <button type="submit" class="btn user-comment-button w-100" href="#"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                       </div>
+                      </div>
+                    </form>
+                 </div>
+               </div>
+
+
+
+
+               </div>
+               <div class="post-section bg-light">
+                 <div class="row">
+                   <div class="col-md-6  postbox-left">
+
+                     <div class="user-profile float-left">
+                     <h3 class="profile-img">H</h3>
+                   </div>
+                   <div class="row">
+                     <div class="col-6">
+                       <p class="issue-name">Roadside Trash</p>
+                       <p class="username text-success">Upal C</p>
+                     </div>
+                     <div class="col-6">
+                       <h5 class="issue-location">60 Feet road, Mirpur 2</h5>
+                       <span class="post-time">4h ago</span>
+                     </div>
+                   </div>
+                   <div class="post-img float-left" uk-lightbox="animation: scale">
+                       <div>
+                           <a class="" href="img/2.jpg"   >
+                               <img src="img/2.jpg" alt="" class="rounded post-image">
+                           </a>
+                       </div>
+                       <div>
+                           <a class="" href="img/2.jpg" >
+
+                           </a>
+                       </div>
+                       <div>
+                           <a class="" href="img/3.jpg">
+
+                           </a>
+                       </div>
+                   </div>
+
+                 </div>
+
+                   <div class="col-md-6  postbox-right">
+                     <div class="users-comment">
+                       <div class="each-comment">
+
+                       <div class="cmnt-sec">
+
+                       <h5 class="">Champok D</h5>
+                       <div class="bubble">
+                       <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam accusamus non omnis recusandae nobis officiis tempora dicta, ipsum eum alias!</p>
+                       <span>10m ago</span>
+                       </div>
+
+                       </div>
+                       </div>
+
+                       <div class="each-comment">
+
+                       <div class="cmnt-sec">
+
+                       <h5 class="">Jhon D</h5>
+                       <div class="bubble">
+                       <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam accusamus non omnis recusandae nobis officiis tempora</p>
+                       <span>46m ago</span>
+                       </div>
+
+                       </div>
+                       </div>
+                       <div class="each-comment">
+                       <div class="cmnt-sec">
+                       <h5 class="">Arko M</h5>
+                       <div class="bubble">
+                       <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam accusamus non omnis recusandae nobis officiis tempora dicta, ipsum</p>
+                       <span>2h ago</span>
+                        </div>
+
+                       </div>
+                       </div>
+                       <div class="each-comment">
+
+                       <div class="cmnt-sec">
+
+                       <h5 class="">upal C</h5>
+                       <div class="bubble">
+                       <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing </p>
+                       <span>3h ago</span>
+                        </div>
+
+                       </div>
+                       </div>
+                       <div class="each-comment">
+
+                       <div class="cmnt-sec">
+
+                       <h5 class="">Champok D</h5>
+                       <div class="bubble">
+                       <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam accusamus non omnis recusandae nobis officiis tempora dicta, ipsum eum alias!</p>
+                       <span>4h ago</span>
+                     </div>
+
+                       </div>
+                       </div>
+
+                     </div>
+                     <form class="form-inline comment-form">
+                       <div class="form-row">
+                         <div class="form-group col-md-11 col-11">
+                           <textarea placeholder="Add a comment" class="txta"></textarea>
+                         </div>
+                         <div class="form-group col-md-1 col-1">
+                           <button type="submit" class="btn user-comment-button w-100" href="#"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                         </div>
+                        </div>
+                      </form>
+                   </div>
+                 </div>
+
+
+
+
+                 </div>
+
+           </div>
+
+         </div>
+         </div>
+     </section>
+     <div class="container pt-4 text-center">
+       <!-- <div class="row">
+         <div class="col-md-12 wow zoomIn">
+           <button class="btn btn-outline-light mt-3" type="button" data-toggle="modal" data-target="#contactModal" name="button">Contact Us</button>
+           <p class="lead text-light mt-3">Copyright &copy; 2020</p>
+         </div>
+       </div> -->
+     </div>
+   </section>
+
+   <!-- FOOTER SECTION -->
+   <!-- <footer id="footer-section " class="text-center bg-dark text-light py-5 ">
+     <div class="container">
+       <div class="row">
+         <div class="col-md-12 wow zoomIn">
+           <h2 class="display-4 logo d-inline">Asiasbook</h2>
+           <p class="lead">Copyright &copy; 2020</p>
+           <button class="btn btn-outline-light" type="button" data-toggle="modal" data-target="#contactModal" name="button">Contact Us</button>
+         </div>
+       </div>
+     </div>
+   </footer> -->
+
+   <!-- Contact Modal -->
+   <div class="modal uk-animation-scale-up" id="contactModal">
+     <div class="container">
+       <div class="modal-dialog" id="fy">
+         <div class="modal-content gredient text-light">
+           <div class="modal-header">
+             <h3>Contact Us</h3>
+             <button class="close text-light" data-dismiss="modal">&times;</button>
+           </div>
+           <div class="modal-body">
+             <form action="#" method="POST">
+               <div class="form-group">
+                 <label for="name">Name</label>
+                 <input type="text" id="name" class="form-control" name="Name">
+               </div>
+               <div class="form-group">
+                 <label for="email">Email</label>
+                 <input type="email" id="email" name="Email" class="form-control">
+               </div>
+               <div class="form-group">
+                 <label for="message">Message</label>
+                 <textarea name="Message" id="message" class="form-control"></textarea>
+               </div>
+               <input type="submit" value="Send" class="btn btn-outline-light btn-block px-4">
+             </form>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <!-- SIGNUP Modal -->
+
+   <div class="modal uk-animation-scale-up" id="SignupModal">
+     <div class="container">
+       <div class="modal-dialog">
+         <div class="modal-content gredient">
+           <div class="modal-header text-center ">
+             <h3 class="text-center">Sign Up Here</h3>
+             <button class="close text-light" data-dismiss="modal">&times;</button>
+           </div>
+           <div class="modal-body f-pass">
+             <form action="" method="get">
+               <div class="form-group">
+                 <input type="text" id="name" name="esername" class="form-control form-control-lg" placeholder="Enter Name">
+               </div>
+               <div class="form-group">
+                 <input type="email" id="email" name="email" class="form-control form-control-lg" placeholder="Enter Email">
+               </div>
+               <div class="form-group">
+                 <input type="number" id="age" name="age" class="form-control form-control-lg" placeholder="Enter Age">
+               </div>
+               <div class="form-group">
+                 <input class="form-control form-control-lg" type="password" placeholder="Enter Password" name="password1">
+               </div>
+               <div class="form-group">
+                 <input class="form-control form-control-lg" type="password" placeholder="Enter Password Again" name="password2">
+               </div>
+               <input type="checkbox" required> <a class="text-light" href="#" data-toggle="modal" data-target="#tncmodal"> Terms & Conditions</a>
+               <input class="btn btn-outline-light form-control mt-4 btn-lg" type="submit" value="Sign Up">
+             </form>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <!-- Filter Box -->
+   <div class="modal fade"  tabindex="2" role="dialog" aria-hidden="true" id="filter">
+     <div class="container">
+       <div class="modal-dialog text-dark" id="fy">
+         <div class="modal-content create-post-box text-dark">
+           <div class="modal-header">
+             <div class="mt-1">
+               <span class="lead pt-3"><b>Filter</b></span><br>
+
+             </div>
+             <button class="close text-dark uk-animation-scale-down" data-dismiss="modal">&times;</button>
+           </div>
+           <div class="modal-body f-pass filter-body">
+             <form>
+  <div class="form-row">
+    <div class="form-group col-md-4 col-sm-6">
+      <select disabled class="custom-select mr-sm-2 green-outline" id="inlineFormCustomSelect">
+        <option selected disabled>Roadside trash</option>
+        <option  class="green-bg" value="1">Roadside trash</option>
+        <option value="2">Others</option>
+
+      </select>
+    </div>
+
+    <div class="form-group col-md-4 col-sm-6">
+      <select disabled class="custom-select mr-sm-2 green-outline" id="inlineFormCustomSelect">
+        <option selected hidden>Dhaka</option>
+        <option value="1">Dhaka</option>
+      </select>
+    </div>
+    <div class="form-group col-md-4 col-sm-6">
+      <select class="custom-select mr-sm-2 green-outline" id="inlineFormCustomSelect">
+        <option selected hidden>Area</option>
+        <option value="1">Chawk Bazar</option>
+        <option value="1">Dhanmondi</option>
+        <option value="1">Hemayetpur</option>
+        <option value="1">Krwan Bazar</option>
+        <option value="1">Mirpur</option>
+        <option value="1">Mohommodpur</option>
+        <option value="1">Mohakhali</option>
+        <option value="1">Motijhil</option>
+        <option value="1">Shawrapara</option>
+        <option value="1">shahbug</option>
+
+      </select>
+    </div>
+    <button class="btn btn-success btn-block mt-5 filter-btn" type="button" name="button">Search</button>
+  </form>
+  </div>
+
+           </div>
+           <div class="modal-footer">
+
+           </div>
+
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <script src="js/jquery.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/navbar-fixed.js"></script>
+   <script src="js/wow.min.js"></script>
+   <script src="js/uikit.min.js"></script>
+   <script src="js/uikit-icons.min.js"></script>
+   <script src="js/lightslider.js"></script>
+   <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script src="js/main.js"></script>
+
+
+
+   <script type="text/javascript">
+   const selected = document.querySelector(".selected");
+   const optionsContainer = document.querySelector(".options-container");
+
+   const optionsList = document.querySelectorAll(".option");
+
+   selected.addEventListener("click", () => {
+     optionsContainer.classList.toggle("active");
+   });
+
+   optionsList.forEach(o => {
+     o.addEventListener("click", () => {
+       selected.innerHTML = o.querySelector("label").innerHTML;
+       optionsContainer.classList.remove("active");
+     });
+   });
+
+   </script>
+
+   <script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "";
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+<script type="text/javascript">
+// Targets all textareas with class "txta"
+let textareas = document.querySelectorAll('.txta'),
+  hiddenDiv = document.createElement('div'),
+  content = null;
+
+// Adds a class to all textareas
+for (let j of textareas) {
+j.classList.add('txtstuff');
+}
+
+// Build the hidden div's attributes
+
+// The line below is needed if you move the style lines to CSS
+// hiddenDiv.classList.add('hiddendiv');
+
+// Add the "txta" styles, which are common to both textarea and hiddendiv
+// If you want, you can remove those from CSS and add them via JS
+hiddenDiv.classList.add('txta');
+
+// Add the styles for the hidden div
+// These can be in the CSS, just remove these three lines and uncomment the CSS
+hiddenDiv.style.display = 'none';
+hiddenDiv.style.whiteSpace = 'pre-wrap';
+hiddenDiv.style.wordWrap = 'break-word';
+
+// Loop through all the textareas and add the event listener
+for(let i of textareas) {
+(function(i) {
+  // Note: Use 'keyup' instead of 'input'
+  // if you want older IE support
+  i.addEventListener('input', function() {
+
+    // Append hiddendiv to parent of textarea, so the size is correct
+    i.parentNode.appendChild(hiddenDiv);
+
+    // Remove this if you want the user to be able to resize it in modern browsers
+    i.style.resize = 'none';
+
+    // This removes scrollbars
+    i.style.overflow = 'hidden';
+
+    // Every input/change, grab the content
+    content = i.value;
+
+    // Add the same content to the hidden div
+
+    // This is for old IE
+    content = content.replace(/\n/g, '<br>');
+
+    // The <br ..> part is for old IE
+    // This also fixes the jumpy way the textarea grows if line-height isn't included
+    hiddenDiv.innerHTML = content + '<br style="line-height: 3px;">';
+
+    // Briefly make the hidden div block but invisible
+    // This is in order to read the height
+    hiddenDiv.style.visibility = 'hidden';
+    hiddenDiv.style.display = 'block';
+    i.style.height = hiddenDiv.offsetHeight + 'px';
+
+    // Make the hidden div display:none again
+    hiddenDiv.style.visibility = 'visible';
+    hiddenDiv.style.display = 'none';
+  });
+})(i);
+}
+</script>
+<script type="text/javascript">
+
+function readURL(input) {
+    if (input.files && input.files[0]) {
+        var reader = new FileReader();
+        reader.onload = function(e) {
+            $('#imagePreview').css('background-image', 'url('+e.target.result +')');
+            $('#imagePreview').hide();
+            $('#imagePreview').fadeIn(650);
+        }
+        reader.readAsDataURL(input.files[0]);
+    }
+}
+$("#imageUpload").change(function() {
+    readURL(this);
+});
+
+</script>
+
+
+
+ </body>
+
+ </html>
